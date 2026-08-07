@@ -1,0 +1,33 @@
+## Static Characterization
+
+| Parameter | Value | Unit |
+|-----------|------:|:----:|
+| VOH | 5.0000 | V |
+| VOL | 0.0000 | V |
+| VM | 2.1200 | V |
+| VIL | 1.5200 | V |
+| VIH | 2.4700 | V |
+| NML | 1.5200 | V |
+| NMH | 2.5300 | V |
+| Maximum Gain | -60.94 | V/V |
+
+## Timing Characterization
+
+| Parameter | Value | Unit |
+|-----------|------:|:----:|
+| TPHL | 42.75 | ps |
+| TPLH | 75.74 | ps |
+| Rise Time | 134.08 | ps |
+| Fall Time | 68.54 | ps |
+| Average Delay | 59.25 | ps |
+
+## Power Characterization
+
+| Parameter | Value | Unit |
+|-----------|------:|:----:|
+| Average Current | -5.165 | µA |
+| Average Power | 25.827 | µW |
+| Peak Current | -0.000 | µA |
+| Minimum Current | -484.651 | µA |
+| Energy per Transition | 258.275 | fJ |
+

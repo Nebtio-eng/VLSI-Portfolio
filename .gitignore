@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Matplotlib cache
+.matplotlib/

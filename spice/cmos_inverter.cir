@@ -1,0 +1,31 @@
+*====================================================
+* CMOS Inverter
+* Project 01
+*====================================================
+
+VDD VDD 0 DC 5
+VIN IN 0 DC 0
+
+* PMOS
+M1 OUT IN VDD VDD PMOS_BASIC L=1u W=10u
+
+* NMOS
+M2 OUT IN 0 0 NMOS_BASIC L=1u W=5u
+
+.model NMOS_BASIC NMOS (
++ LEVEL=1
++ VTO=0.7
++ KP=120u
++ LAMBDA=0.02
+)
+
+.model PMOS_BASIC PMOS (
++ LEVEL=1
++ VTO=-0.7
++ KP=50u
++ LAMBDA=0.02
+)
+
+.dc VIN 0 5 0.01
+
+.end
