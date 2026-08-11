@@ -1,0 +1,22 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\Home\Desktop\VLSI-Portfolio\project-01-cmos-logic-design\schematics\cmos_nand.net
+Start Time: Tue Aug 11 17:38:05 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.148 seconds.
+
+Files loaded:
+C:\Users\Home\Desktop\VLSI-Portfolio\project-01-cmos-logic-design\schematics\cmos_nand.net
+C:\Users\Home\AppData\Local\LTspice\lib\cmp\standard.mos
+
+tphl=1.02352200747e-08 FROM 1.005e-08 TO 2.02852200747e-08
+tplh=1.01265321991e-08 FROM 1.515e-08 TO 2.52765321991e-08
+rise_time=2.80039289618e-10 FROM 5.18175408334e-09 TO 5.46179337296e-09
+fall_time=5.49508713817e-10 FROM 1.07856570721e-10 TO 6.57365284538e-10
+iavg: AVG(I(V1))=-3.46456739941e-06 FROM 0 TO 5e-08
+imax: MAX(ABS(I(V1)))=0.000242928930675 FROM 0 TO 5e-08
+imin: MIN(I(V1))=-0.000242928930675 FROM 0 TO 5e-08

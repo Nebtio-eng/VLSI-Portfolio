@@ -1,33 +1,83 @@
-------------------------------------------------------------
-STATIC CHARACTERIZATION
-------------------------------------------------------------
+# CMOS Inverter Engineering Report
 
-VOH                   : 5.0000 V
-VOL                   : 0.0000 V
-VM                    : 2.1200 V
-VIL                   : 1.5200 V
-VIH                   : 2.4700 V
-NML                   : 1.5200 V
-NMH                   : 2.5300 V
-Maximum Gain          : -60.94 V/V
+## Project
 
-------------------------------------------------------------
-TIMING CHARACTERIZATION
-------------------------------------------------------------
+Project 01 — CMOS Logic Design from First Principles
 
-TPHL                  : 42.75 ps
-TPLH                  : 75.74 ps
-Rise Time             : 134.08 ps
-Fall Time             : 68.54 ps
-Average Delay         : 59.25 ps
+---
 
-------------------------------------------------------------
-POWER CHARACTERIZATION
-------------------------------------------------------------
+## Objective
 
-Average Current       : -5.165 µA
-Average Power         : 25.827 µW
-Peak Current          : -0.000 µA
-Minimum Current       : -484.651 µA
-Energy per Transition : 258.275 fJ
+Design, simulate, and characterize a CMOS inverter using LTspice and automate the characterization workflow using Python.
 
+---
+
+## Design Summary
+
+Supply Voltage
+
+- 5 V
+
+Simulation Types
+
+- DC Sweep
+- Transient Analysis
+
+Characterization
+
+- Static
+- Timing
+- Power
+
+---
+
+## Static Results
+
+| Parameter | Value |
+|-----------|-------|
+| VOH | 5.000 V |
+| VOL | 0.000 V |
+| VM | 2.120 V |
+| VIL | 1.520 V |
+| VIH | 2.470 V |
+| NML | 1.520 V |
+| NMH | 2.530 V |
+| Maximum Gain | -60.94 |
+
+---
+
+## Timing Results
+
+| Parameter | Value |
+|-----------|-------|
+| TPHL | 42.75 ps |
+| TPLH | 75.74 ps |
+| Rise Time | 134.08 ps |
+| Fall Time | 68.54 ps |
+| Average Delay | 59.25 ps |
+
+---
+
+## Power Results
+
+| Parameter | Value |
+|-----------|-------|
+| Average Current | 5.165 µA |
+| Average Power | 25.827 µW |
+| Peak Current | 484.651 µA |
+| Energy / Transition | 258.275 fJ |
+
+---
+
+## Engineering Observations
+
+- Rail-to-rail switching was achieved.
+- The inverter exhibits a sharp transition region.
+- The NMOS pull-down path switches faster than the PMOS pull-up path.
+- Python automation successfully generated all characterization reports.
+
+---
+
+## Conclusion
+
+The CMOS inverter was successfully implemented, simulated, and characterized. The automation framework developed in this project will be reused for all remaining CMOS logic gates.
