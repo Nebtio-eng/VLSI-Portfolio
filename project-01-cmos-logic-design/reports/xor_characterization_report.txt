@@ -1,0 +1,71 @@
+CMOS XOR CHARACTERIZATION REPORT
+============================================================
+
+TIMING
+------------------------------------------------------------
+TPHL_A:
+  Transition 1: 187.540 ps
+  Average: 187.540 ps
+  Worst: 187.540 ps
+TPLH_A:
+  Transition 1: 126.584 ps
+  Transition 2: 119.134 ps
+  Transition 3: 244.247 ps
+  Average: 163.322 ps
+  Worst: 244.247 ps
+TPHL_B:
+  Transition 1: 210.212 ps
+  Transition 2: 231.876 ps
+  Average: 221.044 ps
+  Worst: 231.876 ps
+TPLH_B:
+  Transition 1: 231.556 ps
+  Average: 231.556 ps
+  Worst: 231.556 ps
+
+Worst TPHL: 231.876 ps
+Worst TPLH: 244.247 ps
+Average Delay: 193.021 ps
+
+POWER
+------------------------------------------------------------
+Average Current: 2.523 µA
+Peak Current: 155.863 µA
+Average Power: 12.617 µW
+Peak Power: 779.317 µW
+Energy: 504.674 fJ
+Energy/Transition: 72.096 fJ
+
+VTC
+------------------------------------------------------------
+
+B=0
+voh: 4.9799999999999995
+vol: 0.0202207662
+vm: 1.0
+max_gain: 1.0000049999999945
+min_gain: 0.9049538999999999
+vil: nan
+vih: nan
+nml: nan
+nmh: nan
+Transfer type: Non-inverting
+
+B=5
+voh: 4.9991248
+vol: 6.0704233899999995e-05
+vm: 2.5
+max_gain: 0.032399999999995543
+min_gain: -30.693200000000658
+vil: 1.87
+vih: 3.12
+nml: 1.8699392957661
+nmh: 1.8791247999999996
+Transfer type: Inverting
+
+EVENTS
+------------------------------------------------------------
+Valid: 7
+Multi-input: 0
+Unmatched: 0
+No-output: 0

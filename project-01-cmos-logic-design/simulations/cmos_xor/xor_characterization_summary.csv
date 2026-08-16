@@ -1,0 +1,51 @@
+Parameter,Category,Value,Unit
+TPHL_A average,Timing,1.8754032621248223e-10,s
+TPHL_A worst,Timing,1.8754032621248223e-10,s
+TPLH_A average,Timing,1.6332164298575717e-10,s
+TPLH_A worst,Timing,2.4424688808949223e-10,s
+TPHL_B average,Timing,2.2104438053794736e-10,s
+TPHL_B worst,Timing,2.3187645596928885e-10,s
+TPLH_B average,Timing,2.315555610444442e-10,s
+TPLH_B worst,Timing,2.315555610444442e-10,s
+Worst TPHL,Timing,2.3187645596928885e-10,s
+Worst TPLH,Timing,2.4424688808949223e-10,s
+Average Delay,Timing,1.9302136818429895e-10,s
+Rise Time,Timing,5.001386778011362e-09,s
+Fall Time,Timing,5.576955115223788e-09,s
+Rise Time Transition 1,Timing,4.972538557932754e-09,s
+Rise Time Transition 2,Timing,4.997638426793833e-09,s
+Rise Time Transition 3,Timing,5.033983349307499e-09,s
+Fall Time Transition 1,Timing,6.475002604727628e-09,s
+Fall Time Transition 2,Timing,4.9574824787393565e-09,s
+Fall Time Transition 3,Timing,5.298380262204383e-09,s
+average_current,Power,2.5233690168925776e-06,A
+peak_current,Power,0.0001558635,A
+minimum_current,Power,7.599532e-12,A
+average_power,Power,1.2616845084462887e-05,W
+peak_power,Power,0.0007793174999999999,W
+energy,Power,5.046738033785155e-13,J
+energy_per_transition,Power,7.209625762550222e-14,J
+Average Static Power,Static Power,2.2931405388924445e-06,W
+Maximum Static Power,Static Power,9.172289480314961e-06,W
+B_0_voh,VTC,4.9799999999999995,V
+B_0_vol,VTC,0.0202207662,V
+B_0_raw_voh,VTC,5.0,V
+B_0_raw_vol,VTC,0.001000281,V
+B_0_vm,VTC,1.0,V
+B_0_max_gain,VTC,1.0000049999999945,V/V
+B_0_min_gain,VTC,0.9049538999999999,V/V
+B_0_vil,VTC,nan,V
+B_0_vih,VTC,nan,V
+B_0_nml,VTC,nan,V
+B_0_nmh,VTC,nan,V
+B_5_voh,VTC,4.9991248,V
+B_5_vol,VTC,6.0704233899999995e-05,V
+B_5_raw_voh,VTC,5.002941,V
+B_5_raw_vol,VTC,3.002595e-07,V
+B_5_vm,VTC,2.5,V
+B_5_max_gain,VTC,0.032399999999995543,V/V
+B_5_min_gain,VTC,-30.693200000000658,V/V
+B_5_vil,VTC,1.87,V
+B_5_vih,VTC,3.12,V
+B_5_nml,VTC,1.8699392957661,V
+B_5_nmh,VTC,1.8791247999999996,V
